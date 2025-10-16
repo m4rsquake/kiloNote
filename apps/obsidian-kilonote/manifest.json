@@ -1,0 +1,10 @@
+{
+	"id": "kilonote",
+	"name": "KiloNote",
+	"version": "0.1.0",
+	"minAppVersion": "1.4.16",
+	"description": "Integrate the KiloNote AI assistant directly in Obsidian to supercharge your note-taking workflows.",
+	"author": "Kilo Org",
+	"authorUrl": "https://kilonote.app",
+	"isDesktopOnly": false
+}
