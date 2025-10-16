@@ -47,7 +47,7 @@ For details on building and developing the extension, see [DEVELOPMENT.md](/DEVE
 
 ## Obsidian Plugin
 
-Looking to bring KiloNote into your note-taking workflow? Check out the dedicated [Obsidian plugin](apps/obsidian-kilonote/README.md) which embeds the KiloNote assistant inside an Obsidian sidebar. Build it with `pnpm --filter obsidian-kilonote build` and copy the generated files into your vault's plugins folder to get started.
+Looking to bring Kilocode into your note-taking workflow? Check out the new [Obsidian plugin](apps/obsidian-kilocode/README.md) which embeds the Kilocode assistant inside an Obsidian sidebar. Build it with `pnpm --filter obsidian-kilocode build` and copy the generated files into your vault's plugins folder to get started.
 
 ## Contributors to Kilo
 
