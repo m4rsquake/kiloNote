@@ -1,0 +1,10 @@
+{
+	"id": "kilocode",
+	"name": "Kilocode",
+	"version": "0.1.0",
+	"minAppVersion": "1.4.16",
+	"description": "Integrate the Kilocode AI assistant directly in Obsidian using the familiar sidebar experience.",
+	"author": "Kilo Org",
+	"authorUrl": "https://kilocode.ai",
+	"isDesktopOnly": false
+}
