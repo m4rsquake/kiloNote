@@ -1,25 +1,13 @@
-<p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=kilocode.Kilo-Code"><img src="https://img.shields.io/visual-studio-marketplace/v/kilocode.Kilo-Code.svg?label=VS%20Code%20Marketplace" alt="VS Code Marketplace"></a>
-  <a href="https://x.com/kilocode"><img src="https://img.shields.io/twitter/follow/kilocode?style=flat&logo=x&color=555" alt="X (Twitter)"></a>
-  <a href="https://blog.kilocode.ai"><img src="https://img.shields.io/badge/Blog-555?style=flat&logo=substack&logoColor=white" alt="Substack Blog"></a>
-  <a href="https://kilocode.ai/discord"><img src="https://img.shields.io/discord/1349288496988160052?style=flat&logo=discord&logoColor=white" alt="Discord"></a>
-  <a href="https://www.reddit.com/r/kilocode/"><img src="https://img.shields.io/reddit/subreddit-subscribers/kilocode?style=flat&logo=reddit&logoColor=white" alt="Reddit"></a>
-</p>
+# 📝 KiloNote
 
-# 🚀 Kilo Code
-
-> Kilo is an open-source VS Code AI agent. We frequently merge features from open-source projects while building our own vision.
-
-- ✨ Generate code from natural language
-- ✅ Checks its own work
-- 🧪 Run terminal commands
-- 🌐 Automate the browser
-- 🤖 Latest AI models
-- 🎁 API keys optional
-- 💡 **Get $20 in bonus credits when you top-up for the first time** Credits can be used with 400+ models like Gemini 2.5 Pro, Claude 4 Sonnet & Opus, and GPT-5
+KiloNote is an open-source Obsidian plugin that brings a dedicated AI
+note-taking companion into your vault. Inspired by the capabilities of
+Kilo Code, KiloNote focuses on long-form writing and research workflows,
+letting you draft, refine, and organize your ideas without leaving
+Obsidian.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Kilo-Org/kilocode/refs/heads/main/kilo.gif" width="100%" />
+  <img src="./kilo.gif" width="100%" alt="KiloNote demo" />
 </p>
 
 - [VS Code Marketplace](https://kilocode.ai/vscode-marketplace?utm_source=Readme) (download)
