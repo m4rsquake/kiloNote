@@ -10,56 +10,85 @@ Obsidian.
   <img src="./kilo.gif" width="100%" alt="KiloNote demo" />
 </p>
 
-## Key Capabilities
+- [VS Code Marketplace](https://kilocode.ai/vscode-marketplace?utm_source=Readme) (download)
+- [Official KiloCode.ai Home page](https://kilocode.ai) (learn more)
 
-- **Stay in the flow:** Open the assistant from the ribbon or the command
-  palette and keep your current note in view.
-- **Context-aware suggestions:** Send selected text — along with optional
-  file metadata and frontmatter — so the assistant always has the right
-  context.
-- **Configurable endpoint:** Point the plugin at a self-hosted KiloNote
-  deployment or the hosted web application.
-- **Keyboard friendly:** Trigger the "Send selection to KiloNote" command
-  to quickly iterate on outlines, meeting notes, or research summaries.
+## Key Features
 
-## Getting Started
+- **Code Generation:** Kilo can generate code using natural language.
+- **Task Automation:** Kilo can automate repetitive coding tasks.
+- **Automated Refactoring:** Kilo can refactor and improve existing code.
+- **MCP Server Marketplace**: Kilo can easily find, and use MCP servers to extend the agent capabilities.
+- **Multi Mode**: Plan with Architect, Code with Coder, and Debug with Debugger, and make your own custom modes.
 
-1. Clone this repository and install dependencies with `pnpm install`.
-2. Build the plugin bundle:
-    ```bash
-    pnpm --filter obsidian-kilonote build
-    ```
-3. Copy the contents of `apps/obsidian-kilonote/dist` into
-   `<your-vault>/.obsidian/plugins/kilo-note` (create the folder if it
-   does not exist).
-4. Enable **KiloNote** from Obsidian's **Community plugins** tab.
+## How to get started with Kilo Code
 
-Once enabled, use the ribbon icon or run the `KiloNote: Open KiloNote`
-command to open the assistant. Highlight text in any Markdown file and
-run `KiloNote: Send selection to KiloNote` to push context into the
-sidebar chat.
+1. Install the Kilo Code extension from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=kilocode.Kilo-Code).
+2. Create your account to access 400+ cutting-edge AI models including Gemini 2.5 Pro, Claude 4 Sonnet & Opus, and GPT-5 – with transparent pricing that matches provider rates exactly.
+3. Start coding with AI that adapts to your workflow. Watch our quick-start guide to see Kilo Code in action:
 
-## Development
+[![Watch the video](https://img.youtube.com/vi/pqGfYXgrhig/maxresdefault.jpg)](https://youtu.be/pqGfYXgrhig)
 
-The Obsidian plugin lives in `apps/obsidian-kilonote`. During
-development you can run the build in watch mode to automatically rebuild
-on file changes:
+## Extension Development
 
-```bash
-pnpm --filter obsidian-kilonote build -- --watch
-```
+For details on building and developing the extension, see [DEVELOPMENT.md](/DEVELOPMENT.md)
 
-Obsidian supports hot reloading when the compiled plugin files change,
-so keep the vault open while iterating.
+## Obsidian Plugin
 
-## Project Layout
+Looking to bring Kilocode into your note-taking workflow? Check out the new [Obsidian plugin](apps/obsidian-kilocode/README.md) which embeds the Kilocode assistant inside an Obsidian sidebar. Build it with `pnpm --filter obsidian-kilocode build` and copy the generated files into your vault's plugins folder to get started.
 
-- `apps/obsidian-kilonote/` – Obsidian plugin source code, settings, and
-  build tooling.
-- `webview-ui/` – Shared web UI components leveraged by the embedded
-  assistant panel.
-- `scripts/` – Project automation utilities.
+## Contributors to Kilo
 
-KiloNote started from the Kilo Code foundation but has been adapted for
-note-taking, research, and knowledge management scenarios inside
-Obsidian. Contributions and issue reports are welcome!
+Thanks to all the contributors who help make Kilo Code better!
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/mcowger">
+        <img src="https://avatars.githubusercontent.com/u/1929548?size=100" width="100" height="100" alt="mcowger" style="border-radius: 50%;" />
+      </a>
+    </td>    <td align="center">
+      <a href="https://github.com/bhaktatejas922">
+        <img src="https://avatars.githubusercontent.com/u/26863466?size=100" width="100" height="100" alt="bhaktatejas922" style="border-radius: 50%;" />
+      </a>
+    </td>    <td align="center">
+      <a href="https://github.com/NyxJae">
+        <img src="https://avatars.githubusercontent.com/u/52313587?size=100" width="100" height="100" alt="NyxJae" style="border-radius: 50%;" />
+      </a>
+    </td>    <td align="center">
+      <a href="https://github.com/Aikiboy123">
+        <img src="https://avatars.githubusercontent.com/u/161741275?size=100" width="100" height="100" alt="Aikiboy123" style="border-radius: 50%;" />
+      </a>
+    </td>    <td align="center">
+      <a href="https://github.com/cobra91">
+        <img src="https://avatars.githubusercontent.com/u/1060585?size=100" width="100" height="100" alt="cobra91" style="border-radius: 50%;" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/ivanarifin">
+        <img src="https://avatars.githubusercontent.com/u/111653938?size=100" width="100" height="100" alt="ivanarifin" style="border-radius: 50%;" />
+      </a>
+    </td>    <td align="center">
+      <a href="https://github.com/PeterDaveHello">
+        <img src="https://avatars.githubusercontent.com/u/3691490?size=100" width="100" height="100" alt="PeterDaveHello" style="border-radius: 50%;" />
+      </a>
+    </td>    <td align="center">
+      <a href="https://github.com/possible055">
+        <img src="https://avatars.githubusercontent.com/u/38576169?size=100" width="100" height="100" alt="possible055" style="border-radius: 50%;" />
+      </a>
+    </td>    <td align="center">
+      <a href="https://github.com/seuros">
+        <img src="https://avatars.githubusercontent.com/u/2394703?size=100" width="100" height="100" alt="seuros" style="border-radius: 50%;" />
+      </a>
+    </td>    <td align="center">
+      <!-- added this line to test github action -->
+      <a href="https://kilocode.ai/#contributors">
+        <b>more ...</b>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<!-- END CONTRIBUTORS SECTION -->
